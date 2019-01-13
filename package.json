@@ -1,0 +1,22 @@
+{
+  "name": "nodetakingapp",
+  "version": "1.0.0",
+  "description": "An app for taking nodes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shmurhp/nodetakingapp.git"
+  },
+  "author": "Shmurhp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shmurhp/nodetakingapp/issues"
+  },
+  "homepage": "https://github.com/Shmurhp/nodetakingapp#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
