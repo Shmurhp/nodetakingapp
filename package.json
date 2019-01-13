@@ -4,7 +4,8 @@
   "description": "An app for taking nodes",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/Shmurhp/nodetakingapp#readme",
   "dependencies": {
+    "aws-sdk": "^2.387.0",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
